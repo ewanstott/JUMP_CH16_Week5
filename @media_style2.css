@@ -1,0 +1,25 @@
+.container > div {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 500px){ /* always start with min width */ 
+    .container {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px){ 
+    .container {
+        display: flex;
+        background-color: green;
+    }
+}
+
+/* @media screen and (min-width: 700px){  /* Example here -> turn flex on only when screen width > 700px /*
+    .container {
+        display: flex;
+    }
+} */

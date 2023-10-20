@@ -1,0 +1,33 @@
+div {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+
+/* @media screen and (min-width: 500px) {
+
+    div {
+        background-color: green;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    background-color: grey;
+} */
+
+@media screen and (min-width: 400px) {
+div {
+    background-color: green;
+    width: 400px;
+}
+}
+
+
+
+@media screen and (min-width: 200px) {
+    div {
+        background-color: blue;
+        width: 200px;
+    }
+}
